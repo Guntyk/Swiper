@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    height: 100%;
+	line-height: 1;
+    font-size: 14px;
+    background-color: #333;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper {
+    padding: 30px;
+    min-height: 100%;
+}
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+.image-slider {
+    padding: 30px 0 70px 0;
+}
+.text-slider {
+    padding: 30px 0 70px 0;
+}
+/* .image-slider__wrapper {
+}
+.image-slider__slide {
+} */
+.image-slider__image {
+    text-align: center;
+}
+.text-slider__text {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.image-slider__image img {
+    max-width: 100%;
+}
+/* Стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+    color: #fff;
+    font-size: 80px;
+}
+/* Пагинация */
+.image-slider .swiper-pagination {
+    bottom: 0;
+}
+/* Буллеты */
+.image-slider .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Фракция */
+.image-slider .swiper-pagination-fraction {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Прогрессбар */
+.image-slider .swiper-pagination-progressbar-fill {
+    background-color: #7a956b;
+}
+
+/* Скролл */
+.image-slider .swiper-scrollbar-drag {
+    cursor: pointer;
+    background-color: #7a956b;
+}
+
+/* Автоширина */
+/* .image-slider .swiper-slide {
+    width: auto;
+} */
+
+/* Мультирядность */
+/* .image-slider {
+    height: 700px;
+}
+.image-slider .swiper-slide {
+    height: calc((100% - 30px) / 2);
+    overflow: hidden;
+} */
+
+/* Вертикальный слайдер */
+/* .image-slider {
+    padding: 0px 0 0px 0;
+    height: 700px;
+} */
+
+/* Эффект 3D куба */
+/* .image-slider {
+    width: 500px;
+} */
